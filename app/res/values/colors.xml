@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yellow">#fcc72e</color>
+    <color name="blue_light">#00ebd3</color>
+    <color name="blue_medium">#069889</color>
+    <color name="blue">#04b9a6</color>
+    <color name="blue_dark">#187a73</color>
+    <color name="bg_gray">#e7e7e7</color>
+    <color name="bg_white">#f0f0f0</color>
+    <color name="bg_gray_dark">#3c3e41</color>
+
+    <!-- colors for controls -->
+    <color name="eddittext_bg">#FFF</color>
+    <color name="edittext_font">#187a73</color>
+    <color name="edittext_hint">#e7e7e7</color>
+    <color name="text_calendar_gray">#666</color>
+    <color name="bg_item_dark">#1b1b1b</color>
+
+</resources>

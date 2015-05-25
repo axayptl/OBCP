@@ -1,0 +1,481 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_main"
+    android:paddingBottom="15dp" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bg_gray_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <ImageButton
+                android:id="@+id/imageButton_prev"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_prev" />
+
+            <ImageButton
+                android:id="@+id/imageButton_next"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_next" />
+
+            <TextView
+                android:id="@+id/textView_month"
+                style="@style/text_white_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Large Text"
+                android:textColor="#FFF" />
+        </RelativeLayout>
+
+        <TableRow
+            android:id="@+id/tableRow_title"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F" />
+
+            <TextView
+                style="@style/text_calendar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_00"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_01"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_02"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_03"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_04"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_05"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_06"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_10"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_11"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_12"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_13"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_14"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_15"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_16"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_20"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_21"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_22"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_23"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_24"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_25"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_26"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_30"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_31"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_32"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_33"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_34"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_35"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_36"
+                style="@style/text_calendar_date"
+                android:layout_margin="3dp"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_40"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_41"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_42"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_43"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_44"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_45"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_46"
+                style="@style/text_calendar_date"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+
+            <TextView
+                android:id="@+id/textView_place_50"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_51"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_52"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_53"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_54"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_55"
+                style="@style/text_calendar_date"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView_place_56"
+                style="@style/text_calendar_date"
+                android:text="0" />
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:weightSum="3" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        style="@style/text_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Monthly\nAvarage" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        style="@style/text_white_medium"
+                        android:layout_width="93dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/blue"
+                        android:gravity="center"
+                        android:text="00$"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue_dark"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/text_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blue_dark"
+                        android:gravity="center"
+                        android:text="Total Daily\n" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        style="@style/text_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="00$"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/text_white_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Quaterly\nAverage" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        style="@style/text_white_medium"
+                        android:layout_width="93dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blue"
+                        android:gravity="center"
+                        android:text="00$"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
